@@ -18,7 +18,7 @@ Feel free to [download the printable version](./assets/print.png). Here's also t
 
 ## Written Version
 
-### What it is for
+### What it is
 The most efficient data structure to:
 - Search
 - Insert
@@ -26,7 +26,7 @@ The most efficient data structure to:
 
 Does all of it in O(1) complexity on average (i.e. Takes the same time to  do it, no matter the size of data available)
 
-####  It's used for:
+####  It's used for
 - Cashing
 - Database searching
 - Sets
@@ -45,7 +45,7 @@ An unordered collection of **unique keyes** is mapped to **values** through the 
 | hash | value |
 | ---- | ----- |
 | 0    | Salut |
-| 1    |       | 
+| 1    |       |
 | 2    | Olá   |
 | 3    | Hello |
 
