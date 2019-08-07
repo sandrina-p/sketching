@@ -1,6 +1,6 @@
-# The magic of Hash Tables
+# ✨The magic of Hash Tables✨
 
-Feel free to [download the printable version](./assets/print.png). Here's also the [original hand-made version](./assets/original.jpg).
+Feel free to [download the printable version](./assets/print.png). Here's also the [original handmade version](./assets/original.jpg).
 
 <img src="./assets/print.png" alt="Print Version" width="800">
 
@@ -44,9 +44,9 @@ An unordered collection of **unique keyes** is mapped to **values** through the 
 
 | hash | value |
 | ---- | ----- |
-| 0    | Olá   |
-| 1    |       |
-| 2    | Salut |
+| 0    | Salut |
+| 1    |       | 
+| 2    | Olá   |
 | 3    | Hello |
 
 #### Hashing is one-way!
