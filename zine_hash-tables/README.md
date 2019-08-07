@@ -27,12 +27,12 @@ The most efficient data structure to:
 Does all of it in O(1) complexity on average (i.e. Takes the same time to  do it, no matter the size of data available)
 
 ####  It's used for
-- Cashing
+- Caching
 - Database searching
 - Sets
 
 ### How it works
-An unordered collection of **unique keyes** is mapped to **values** through the process of hashing.
+An unordered collection of **unique keys** is mapped to **values** through the process of hashing.
 
 | Take a key | Run it in a hash fn | that generates a hash |
 | ---------- | ------------------- | --------------------- |
@@ -71,7 +71,7 @@ other buckets are examined until an unused bucket is found.
 A bucket can take multiple keys with the same index.
 
 - 💚 Good for large number of collisions.
-- 🚨 Wastage of space (some buckets are never used).
+- 🚨 Waste of space (some buckets are never used).
 
 ### FAQ
 
