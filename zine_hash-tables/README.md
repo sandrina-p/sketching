@@ -1,19 +1,19 @@
 # The magic of Hash Tables
 
-Feel free to [download the printable version](./assets/print.png). Here's also the [original hand-made version](./assets/original.png).
+Feel free to [download the printable version](./assets/print.png). Here's also the [original hand-made version](./assets/original.jpg).
 
-<img src="./assets/print.png" alt="Print Version" width="700">
+<img src="./assets/print.png" alt="Print Version" width="800">
 
 ## Digital Version
-<img src="./assets/0_cover.png" alt="Cover" width="350">
+<img src="./assets/0_cover.png" alt="Cover" width="400">
 
-<img src="./assets/1_intro.png" alt="Intro" width="700">
+<img src="./assets/1_intro.png" alt="Intro" width="800">
 
-<img src="./assets/2_collisions.png" alt="Collisions" width="700">
+<img src="./assets/2_collisions.png" alt="Collisions" width="800">
 
-<img src="./assets/3_faq.png" alt="FAQ" width="700">
+<img src="./assets/3_faq.png" alt="FAQ" width="800">
 
-<img src="./assets/4_js.png" alt="JS" width="700">
+<img src="./assets/4_js.png" alt="JS" width="400">
 
 
 ## Written Version
@@ -24,7 +24,7 @@ The most efficient data structure to:
 - Insert
 - Delete
 
-Does all of it in O(1) complexity on average (i.e. Takes the same time to do it, no matter the size of data available)
+Does all of it in O(1) complexity on average (i.e. Takes the same time to  do it, no matter the size of data available)
 
 ####  It's used for:
 - Cashing
@@ -34,11 +34,20 @@ Does all of it in O(1) complexity on average (i.e. Takes the same time to do i
 ### How it works
 An unordered collection of **unique keyes** is mapped to **values** through the process of hashing.
 
-| Take a key | Run it in a hash fn | that generates a hash | add it to the table index (bucket) |
-| ---------- | ------------------- | --------------------- | ---------------------------------- |
-| Portuguese | ✨                  | 2                     | Salut                              |
-| French     | ✨                  | 0                     | Olá                                |
-| English    | ✨                  | 3                     | Hello                              |
+| Take a key | Run it in a hash fn | that generates a hash |
+| ---------- | ------------------- | --------------------- |
+| Portuguese | ✨                  | 2                     |
+| French     | ✨                  | 0                     |
+| English    | ✨                  | 3                     |
+
+... and add it to the table index (bucket):
+
+| hash | value |
+| ---- | ----- |
+| 0    | Olá   |
+| 1    |       |
+| 2    | Salut |
+| 3    | Hello |
 
 #### Hashing is one-way!
 A hash can’t be converted back to its original key.
