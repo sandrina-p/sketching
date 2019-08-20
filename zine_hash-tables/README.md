@@ -1,19 +1,19 @@
 # ✨The magic of Hash Tables✨
 
-Feel free to [download the printable version](./assets/print.png). Here's also the [original handmade version](./assets/original.jpg).
+Feel free to [download the printable version](./print.png). Here's also the [original handmade version](./original.jpg).
 
 <img src="./assets/print.png" alt="Print Version" width="800">
 
 ## Digital Version
-<img src="./assets/0_cover.png" alt="Cover" width="400">
+<img src="./0_cover.png" alt="Cover" width="400">
 
-<img src="./assets/1_intro.png" alt="Intro" width="800">
+<img src="./1_intro.png" alt="Intro" width="800">
 
-<img src="./assets/2_collisions.png" alt="Collisions" width="800">
+<img src="./2_collisions.png" alt="Collisions" width="800">
 
-<img src="./assets/3_faq.png" alt="FAQ" width="800">
+<img src="./3_faq.png" alt="FAQ" width="800">
 
-<img src="./assets/4_js.png" alt="JS" width="400">
+<img src="./4_js.png" alt="JS" width="400">
 
 
 ## Written Version
