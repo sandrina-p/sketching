@@ -2,7 +2,7 @@
 
 Feel free to [download the printable version](./print.png). Here's also the [original handmade version](./original.jpg).
 
-<img src="./assets/print.png" alt="Print Version" width="800">
+<img src="./print.png" alt="Print Version" width="800">
 
 ## Digital Version
 <img src="./0_cover.png" alt="Cover" width="400">
@@ -101,9 +101,9 @@ A good hash function is the secret to an efficient hash table.
 ```js
 if(viewport === 'sm') {
     fontSize = 1.0;
-} if else (viewport === 'md') {
+} else if (viewport === 'md') {
     fontSize = 1.2;
- } // if else ... if else ...
+ } // else if ... else if ...
 
 ```
 
